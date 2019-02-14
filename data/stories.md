@@ -24,3 +24,11 @@
 
 ## say goodbye
 * goodbye
+
+## show_dollar
+* discover_dollar
+ - utter_dollar
+
+## show_real
+* discover_real
+ - utter_real

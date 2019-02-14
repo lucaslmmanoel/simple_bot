@@ -5,6 +5,8 @@ intents:
   - mood_deny
   - mood_great
   - mood_unhappy
+  - discover_dollar
+  - discover_real
 
 actions:
 - utter_greet
@@ -12,6 +14,8 @@ actions:
 - utter_did_that_help
 - utter_happy
 - utter_goodbye
+- utter_dollar
+- utter_real
 
 templates:
   utter_greet:
@@ -29,3 +33,9 @@ templates:
 
   utter_goodbye:
   - text: "Bye"
+
+  utter_dollar:
+  - text: "Dollar price is"
+
+  utter_real:
+  - text: "Real price is"

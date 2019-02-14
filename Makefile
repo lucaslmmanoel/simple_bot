@@ -6,9 +6,13 @@ train-model:
 train-nlu:
 	python -m rasa_nlu.train -c nlu_config.yml --data data/nlu.md -o models --fixed_model_name nlu --project current --verbose
 
+# Treina Ambos
+train-all:
+	make train-model
+	make train-nlu
 
 # Possibilita falar com o bot na linha de comando
 run:
-	python -m rasa_core.run -d models/dialogue -u models/current/nlu
+	python -m rasa_core.run --enable_api -d models/dialogue -u models/current/nlu
 
 

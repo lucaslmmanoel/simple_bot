@@ -48,3 +48,14 @@
 - not very good
 - extremely sad
 - so sad
+- not
+
+## intent:discover_dollar
+- how about dollar
+- dollar price
+- dollar today
+
+## intent:discover_real
+- how about real
+- real price
+- real today
