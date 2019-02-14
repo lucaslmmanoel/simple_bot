@@ -1,0 +1,4 @@
+.vscode/
+models/*
+rasa_core.log
+venv
